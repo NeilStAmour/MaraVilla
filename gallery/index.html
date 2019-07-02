@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <link rel='stylesheet' href='css/style.css'/>
+    <link rel='stylesheet' href='../css/style.css'/>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -27,22 +27,21 @@
       onshow: function $showBanner(){
         document.getElementById("browserUpdate").style.display = "block";
       },
-      nomessage:true,test:false,insecure:true,api:2019.06 };
+      nomessage:true,insecure:true,api:2019.06 };
       function $buo_f(){
        var e = document.createElement("script");
        e.src = "https://www.browser-update.org/update.min.js";
        document.body.appendChild(e);
       };
-
       try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
       catch(e){window.attachEvent("onload", $buo_f)}
     </script>
     <header>
       <nav class="navgrid">
-        <a href="/" class="home navTile" >Maravilla</a>
-        <a href="gallery/" class="navTile" >Gallery</a>
-        <a href="attractions/" class="navTile" >Attractions</a>
-        <a href="contact/" class="navTile" >Contact</a>
+        <a href="../" class="home navTile" >Maravilla</a>
+        <a href="/" class="navTile" >Gallery</a>
+        <a href="../attractions/" class="navTile" >Attractions</a>
+        <a href="../contact/" class="navTile" >Contact</a>
       </nav>
     </header>
     <div class="navFiller"></div>
@@ -52,67 +51,28 @@
       Please update or download a modern browser to ensure the best and safest experience on the web. <br>
       For security and speed we recommend <a href="https://www.mozilla.org/firefox/" rel="noreferrer noopener" target="_blank">Mozilla Firefox</a>.</p>
     </div>
-    <main class="home">
-      <div class="titleImage">
-        <h1>Maravilla Bonaire</h1>
-        <h4>The perfect vacation rental in beautiful Bonaire</h4>
+    <main class="gallery">
+      <h1>Maravilla Bonaire</h1>
+      <div class="galleryGrid">
+          <img class="galleryImage" src="img/gallery00.jpg" alt="Kitchen Patio">
+          <img class="galleryImage" src="img/gallery01.jpg" alt="Patio View">
+          <img class="galleryImage" src="img/gallery02.jpg" alt="Patio View">
+          <img class="galleryImage" src="img/gallery03.jpg" alt="Patio Stairs">
+          <img class="galleryImage" src="img/gallery04.jpg" alt="Kitchen Patio">
+          <img class="galleryImage" src="img/gallery17.jpg" alt="Outdoor Pool">
+          <img class="galleryImage" src="img/gallery13.jpg" alt="Rooftop Patio">
+          <img class="galleryImage" src="img/gallery05.jpg" alt="Fully Equipped Kitchen">
+          <img class="galleryImage" src="img/gallery06.jpg" alt="Open Concept Living Room and Kitchen">
+          <img class="galleryImage" src="img/gallery07.jpg" alt="Sitting Area">
+          <img class="galleryImage" src="img/gallery08.jpg" alt="Bedroom">
+          <img class="galleryImage" src="img/gallery09.jpg" alt="Poolside Bedroom">
+          <img class="galleryImage" src="img/gallery10.jpg" alt="Bedroom">
+          <img class="galleryImage" src="img/gallery11.jpg" alt="Bedroom">
+          <img class="galleryImage" src="img/gallery12.jpg" alt="Poolside Garden">
+          <img class="galleryImage" src="img/gallery14.jpg" alt="Northern View">
+          <img class="galleryImage" src="img/gallery15.jpg" alt="Southern View">
+          <img class="galleryImage" src="img/gallery16.jpg" alt="Oilslick Entry">
       </div>
-      <div class="homeGrid">
-        <div class="homeTile">
-          <h3>Prime<br>Location</h3>
-          <p>Located on the western coast of the beautiful and safe island of Bonaire, enjoy calm waters and
-            beautiful sunsets. A short walk to ideal diving and snorkeling locations with beautiful scenery
-            everywhere you look.</p>
-        </div>
-        <div class="homeTile">
-          <h3>Private<br>Community</h3>
-          <p>Small gated community located on the north end of the island, a scenic 10 minute drive from the
-            city of Kralendijk. Enjoy a peaceful vacation at the villa or take a short trip down to the
-            city for the nightlife of a Caribbean island.</p>
-        </div>
-        <div class="homeTile">
-          <h3>Modern<br>Amenities</h3>
-          <p>Brand new villa with a fully equipped open concept kitchen of new appliances, spacious accessible
-            bathrooms, and individually air conditioned bedrooms. The villa includes WiFi, smart TV, and a
-            Sonos sound system.</p>
-        </div>
-        <div class="homeTile">
-          <h3>Private<br>Pool</h3>
-          <p>Enjoy a private pool surrounded by tropical gardens and warm breezes in the comfort of your own
-            private vacation home. The pool uses a magnesium mineral solution which avoids all the downsides
-            of chlorine while providing health and ecological benefits.</p>
-        </div>
-      </div>
-      <h2>Included Amenities</h2>
-      <div class="amenitiesGrid">
-        <p>Ocean sunset view</p>
-        <p>Three bedrooms with split king beds</p>
-        <p>Three large accessible bathrooms (255m2)</p>
-        <p>Open concept kitchen and living room</p>
-        <p>Kitchen is fully equipped with new appliances</p>
-        <p>Large wooden ouuloor dining table</p>
-        <p>Large sliding doors with screens</p>
-        <p>WiFi</p>
-        <p>Smart TV</p>
-        <p>Sonos speaker</p>
-        <p>Spacious covered porch</p>
-        <p>Private swimming magnapool</p>
-        <p>Tropical gardens</p>
-        <p>Beautiful roof terrace</p>
-        <p>Outside shower</p>
-        <p>Rinse tank</p>
-        <p>Outdoor scuba/swimming storage room</p>
-        <p>Parking for two vehicles</p>
-        <p>Wheelchair and walker accessible</p>
-        <p>Fans</p>
-      </div>
-      <iframe title="Google Maps Location"
-        width="100%"
-        height="450"
-        frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBKkFA0cJXiWZrDbBznde3EYnp3RBYisXA
-          &q=place_id:ChIJi0r_7_sZg44RzQfvYmiKR0s" allowfullscreen>
-      </iframe>
     	<footer>
         <div class="fb-box">
           <div class="fb-page" data-href="https://www.facebook.com/elpueblo23/" data-tabs=""
@@ -129,5 +89,29 @@
     			</script></p>
     	</footer>
     </main>
+    <div id="modalElement" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage">
+      <div id="caption" class="caption"></div>
+    </div>
+    <script async>
+      // Get the modal
+      var modalElement = document.getElementById("modalElement");
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var images = document.getElementsByClassName("galleryImage");
+      var modalImageElement = document.getElementById("modalImage");
+      var captionText = document.getElementById("caption");
+      for (i = 0; i < images.length; i++) {
+        images[i].onclick = function(){
+          modalElement.style.display = "block";
+          modalImageElement.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+      }
+      modalElement.onclick = function() {
+        modalElement.style.display = "none";
+      }
+    </script>
   </body>
 </html>

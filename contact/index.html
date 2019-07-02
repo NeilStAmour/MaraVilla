@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <link rel='stylesheet' href='css/style.css'/>
+    <link rel='stylesheet' href='../css/style.css'/>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -27,22 +27,21 @@
       onshow: function $showBanner(){
         document.getElementById("browserUpdate").style.display = "block";
       },
-      nomessage:true,test:false,insecure:true,api:2019.06 };
+      nomessage:true,insecure:true,api:2019.06 };
       function $buo_f(){
        var e = document.createElement("script");
        e.src = "https://www.browser-update.org/update.min.js";
        document.body.appendChild(e);
       };
-
       try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
       catch(e){window.attachEvent("onload", $buo_f)}
     </script>
     <header>
       <nav class="navgrid">
-        <a href="/" class="home navTile" >Maravilla</a>
-        <a href="gallery/" class="navTile" >Gallery</a>
-        <a href="attractions/" class="navTile" >Attractions</a>
-        <a href="contact/" class="navTile" >Contact</a>
+        <a href="../" class="home navTile" >Maravilla</a>
+        <a href="../gallery/" class="navTile" >Gallery</a>
+        <a href="../attractions/" class="navTile" >Attractions</a>
+        <a href="/" class="navTile" >Contact</a>
       </nav>
     </header>
     <div class="navFiller"></div>
@@ -52,66 +51,20 @@
       Please update or download a modern browser to ensure the best and safest experience on the web. <br>
       For security and speed we recommend <a href="https://www.mozilla.org/firefox/" rel="noreferrer noopener" target="_blank">Mozilla Firefox</a>.</p>
     </div>
-    <main class="home">
-      <div class="titleImage">
+    <main class="contact">
+      <div class="contactImage">
         <h1>Maravilla Bonaire</h1>
-        <h4>The perfect vacation rental in beautiful Bonaire</h4>
       </div>
-      <div class="homeGrid">
-        <div class="homeTile">
-          <h3>Prime<br>Location</h3>
-          <p>Located on the western coast of the beautiful and safe island of Bonaire, enjoy calm waters and
-            beautiful sunsets. A short walk to ideal diving and snorkeling locations with beautiful scenery
-            everywhere you look.</p>
-        </div>
-        <div class="homeTile">
-          <h3>Private<br>Community</h3>
-          <p>Small gated community located on the north end of the island, a scenic 10 minute drive from the
-            city of Kralendijk. Enjoy a peaceful vacation at the villa or take a short trip down to the
-            city for the nightlife of a Caribbean island.</p>
-        </div>
-        <div class="homeTile">
-          <h3>Modern<br>Amenities</h3>
-          <p>Brand new villa with a fully equipped open concept kitchen of new appliances, spacious accessible
-            bathrooms, and individually air conditioned bedrooms. The villa includes WiFi, smart TV, and a
-            Sonos sound system.</p>
-        </div>
-        <div class="homeTile">
-          <h3>Private<br>Pool</h3>
-          <p>Enjoy a private pool surrounded by tropical gardens and warm breezes in the comfort of your own
-            private vacation home. The pool uses a magnesium mineral solution which avoids all the downsides
-            of chlorine while providing health and ecological benefits.</p>
-        </div>
-      </div>
-      <h2>Included Amenities</h2>
-      <div class="amenitiesGrid">
-        <p>Ocean sunset view</p>
-        <p>Three bedrooms with split king beds</p>
-        <p>Three large accessible bathrooms (255m2)</p>
-        <p>Open concept kitchen and living room</p>
-        <p>Kitchen is fully equipped with new appliances</p>
-        <p>Large wooden ouuloor dining table</p>
-        <p>Large sliding doors with screens</p>
-        <p>WiFi</p>
-        <p>Smart TV</p>
-        <p>Sonos speaker</p>
-        <p>Spacious covered porch</p>
-        <p>Private swimming magnapool</p>
-        <p>Tropical gardens</p>
-        <p>Beautiful roof terrace</p>
-        <p>Outside shower</p>
-        <p>Rinse tank</p>
-        <p>Outdoor scuba/swimming storage room</p>
-        <p>Parking for two vehicles</p>
-        <p>Wheelchair and walker accessible</p>
-        <p>Fans</p>
-      </div>
-      <iframe title="Google Maps Location"
-        width="100%"
-        height="450"
-        frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBKkFA0cJXiWZrDbBznde3EYnp3RBYisXA
-          &q=place_id:ChIJi0r_7_sZg44RzQfvYmiKR0s" allowfullscreen>
+      <h6>For reservations, please book at:<br> <a href="https://www.sunrentalsbonaire.com/listings/maravilla/" rel="noreferrer noopener" target="_blank">SunRentals Bonaire</a></h6>
+      <h6>For information, please contact us at: <br>
+        <a href="tel:+15997176130">+1-599-717-6130</a><br>
+        <a href="tel:+18664641786">+1-866-464-1786</a><br>
+        <a href="mailto:anne@kingstondivecharters.com">anne@kingstondivecharters.com</a></h6>
+      <iframe title="Google Calendar Bookings"
+        src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FToronto&amp;src=MmxhdDRhbmJwMGhuM2k2NWc1b2hkbDcxNmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23C0CA33&amp;showCalendars=0&amp;showTabs=0&amp;showPrint=0&amp;showTitle=0"
+        style="border-width:0"
+        width="800" height="600"
+        frameborder="0" scrolling="no" class="gCal">
       </iframe>
     	<footer>
         <div class="fb-box">
